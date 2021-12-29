@@ -1,3 +1,5 @@
+import ExpenseItem from './components/ExpenseItem';
+
 function App() {
   const par = document.createElement('p');
   par.textContent = 'This is also visible!';
@@ -7,8 +9,9 @@ function App() {
         <h2>
           Let's get started!
         </h2>
-        <p>This is also visible!</p>
+        <ExpenseItem></ExpenseItem>
         {/* <p>This is also visible!</p> */}
+
     </div>
   );
 }
