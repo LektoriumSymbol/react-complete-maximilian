@@ -1,6 +1,6 @@
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   // const par = document.createElement('p');
   // par.textContent = 'This is also visible!';
   // document.getElementById('root').append(par);
